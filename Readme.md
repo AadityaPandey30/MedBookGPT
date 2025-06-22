@@ -2,7 +2,7 @@
 
 MedBookGPT is a powerful **multimodal Retrieval-Augmented Generation (RAG)** web application that allows users to query medical books and receive intelligent, context-aware responses. It supports both **textual content** and **visual content** (figures, tables, charts) extracted from medical PDFs, making it an ideal assistant for students and professionals in the medical field.
 
-This project was made in collaboration with one of my colleagues, so my actuql commit history can be seen here at: https://github.com/Vibhav70/MedGpt
+This project was made in collaboration with one of my colleagues, so my actual commit history can be seen here at: https://github.com/Vibhav70/MedGpt
 
 ---
 
