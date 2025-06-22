@@ -1,0 +1,63 @@
+
+::-webkit-scrollbar{
+  width: 1px;
+}
+
+::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+  background: transparent;
+}
+
+
+.decor {
+  background: linear-gradient(45deg, #5a907c, #207525);
+  background-size: 200% auto;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: shine 10s ease-in-out infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: -200% center;
+  }
+}
+
+
+.colo{
+  background-image: linear-gradient(to right,#688AE9, #C66D7B);
+  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: inherit;
+}
+
+.fading-box {
+  -webkit-mask-image: linear-gradient(to right, transparent, white 10%, white 90%, transparent);
+  mask-image: linear-gradient(to right, transparent, white 10%, white 90%, transparent);
+}
+
+.markdown-content{
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.markdown-content p {
+  margin: 4px 0;
+}
+
+.markdown-content p,ul,li{
+  line-height: 1.2;
+}
+.markdown-content strong {
+  font-weight: 600;
+  color: #2e7d32; /* deep green for medical books */
+}
+.markdown-content em {
+  color: #555;
+}
+.markdown-content hr {
+  margin: 10px 0;
+  border-color: #ccc;
+}

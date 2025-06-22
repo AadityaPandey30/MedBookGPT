@@ -1,0 +1,5 @@
+venv
+node-server/node_modules
+node-server/.env
+python-backend/.env
+python-backend/pdfs
