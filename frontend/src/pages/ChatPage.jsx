@@ -109,9 +109,6 @@ export default function ChatPage() {
         return;
       }
 
-<<<<<<< HEAD
-      const aiResponse = await axios.post("http://127.0.0.1:8000/api/chat", {
-=======
       console.log("User-Type : ", subscriptionType);
   
       // ✅ Check if user is premium and set endpoint accordingly
@@ -121,7 +118,6 @@ export default function ChatPage() {
   
       // ✅ Call the appropriate model (premium or free)
       const aiResponse = await axios.post(endpoint, {
->>>>>>> 4ddee5e0a3111b23a3919df176fb307e70599c73
         user_input: userInput,
       });
   
